@@ -45,7 +45,6 @@ curl -L "https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-ti
 curl -L "https://raw.githubusercontent.com/AlexeyAB/darknet/master/data/coco.names" -o coco.names
 ```
 
-> **Note:** To upgrade to full YOLOv4 for better accuracy (especially in crowded scenes), download `yolov4.weights` and `yolov4.cfg` instead and update the filenames in the script.
 
 ---
 
