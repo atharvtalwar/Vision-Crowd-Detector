@@ -15,3 +15,6 @@ outputs/
 # System files
 .DS_Store
 Thumbs.db
+
+yolov4.weights
+*.weights
