@@ -65,8 +65,6 @@ python python_pp.py -v "path\to\video.mp4"
 python python_pp.py -i "path\to\image.jpg"
 ```
 
-> **Windows tip:** Always use double quotes `"..."` for paths — single quotes are not supported in Windows Command Prompt.
-
 ### Save output to file
 Add `-o` with an output path to any of the above commands:
 ```bash
@@ -92,10 +90,10 @@ Press **Q** to quit during video or webcam detection.
 ```
 project/
 │
-├── python_pp.py        # Main script
-├── yolov4-tiny.weights # YOLO model weights (download separately)
-├── yolov4-tiny.cfg     # YOLO model config (download separately)
-└── coco.names          # Class labels (download separately)
+├── python_pp.py        
+├── yolov4-tiny.weights 
+├── yolov4-tiny.cfg     
+└── coco.names          
 ```
 
 ---
